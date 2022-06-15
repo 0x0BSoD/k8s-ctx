@@ -19,3 +19,7 @@ set -g @k8s_ctx_icons "🧻,🔞,🧰"
 # adding to status bar
 set -g status-right "#{k8s_ctx}"
 ```
+
+`k8s_ctx_envs` -> part of env name for matching ( \*$k8s_ctx_envs\* )
+
+`k8s_ctx_icons` -> icons, icon index matches k8s_ctx_envs index 
